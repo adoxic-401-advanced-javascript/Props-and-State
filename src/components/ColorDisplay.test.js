@@ -4,7 +4,7 @@ import ColorDisplay from './ColorDisplay';
 
 describe('ColorDisplay component', () => {
   it('renders ColorDisplay', () => {
-    const wrapper = shallow(<ColorDisplay backgroundColor={['blue']}
+    const wrapper = shallow(<ColorDisplay backgroundColor={'blue'}
       height={'100px'}
       width={'100px'}
     />);
